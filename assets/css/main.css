@@ -14,8 +14,5 @@ body {
 }
 
 img {
-  width: 200px;
-  border-radius: 50%;
-  outline: 3px solid #eee;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  width: 250px;
 }

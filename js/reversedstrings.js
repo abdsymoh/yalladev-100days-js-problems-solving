@@ -3,6 +3,9 @@
 
 // Day 4 Of 100 Days Of JavaScript Problems Solving
 
-// (4) Sum of positive
+// (4) Reversed Strings
 
+function solution(str) {
+  return str.split("").reverse("").join("")
+}
 
