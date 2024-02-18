@@ -9,7 +9,3 @@ function greet(name) {
   let greeting = `Hello, ${name} how are you doing today?`;
   return greeting;
 }
-
-console.log(greet("Abdullah"))
-
-// "";
