@@ -11,6 +11,9 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #2b2b2b;
+  background: url("../imgs/bg.png") no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 img {
