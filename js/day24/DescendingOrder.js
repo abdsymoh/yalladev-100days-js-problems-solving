@@ -11,9 +11,10 @@ function descendingOrder(n) {
     n
       .toString()
       .split("")
-      .sort((a, b) => b - a)
+      .sort()
+      .reverse()
       .join("")
   );
 }
 
-console.log(descendingOrder(1021)); // 2110
+console.log(descendingOrder(42145)); // 54421
