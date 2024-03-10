@@ -7,5 +7,14 @@
 // (25) Get the Middle Character
 
 function getMiddle(s) {
-  //Code goes here!
+if (s.length % 2 === 0){
+  return s.charAt(s.length / 2 - 1) + s.charAt(s.length / 2)
+} else {
+  return s.charAt(Math.floor(s.length / 2))
 }
+}
+
+console.log(getMiddle("test")); // "es"
+console.log(getMiddle("testing")); // "t"
+console.log(getMiddle("middle")); // "dd"
+console.log(getMiddle("A")); // "A"
