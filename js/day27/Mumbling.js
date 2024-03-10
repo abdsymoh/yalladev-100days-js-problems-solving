@@ -8,8 +8,9 @@
 
 function accum(s) {
   return s
-  .split("")
-  .map((el, i) => el.toUpperCase() + el.repeat(i).toLowerCase()).join("-")
+    .split("")
+    .map((el, i) => el.toUpperCase() + el.repeat(i).toLowerCase())
+    .join("-");
 }
 
 console.log(accum("abcd")); // "A-Bb-Ccc-Dddd"
