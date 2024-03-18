@@ -3,7 +3,7 @@
 
 // Day 3 Of 100 Days Of JavaScript Problems Solving
 
-// (3) Multiply
+// (3) Return Negative
 
 function makeNegative(num) {
   if (num <= 0) {
