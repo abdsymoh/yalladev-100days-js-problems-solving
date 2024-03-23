@@ -11,11 +11,12 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #2b2b2b;
-  background: url("../imgs/bg.png") no-repeat;
+  background: url("../imgs/pg.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 img {
-  width: 250px;
+  width: 100%;
+  max-width: 700px;
 }
