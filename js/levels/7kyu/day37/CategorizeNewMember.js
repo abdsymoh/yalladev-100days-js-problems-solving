@@ -6,8 +6,13 @@
 
 // (37) Categorize New Member
 
+/*
+age > 54
+handicap > 7
+*/
+
 function openOrSenior(data) {
-  return data;
+  return data.map(([age, handicap]) => age > 54 && handicap > 7 ? "Senior" : "Open");
 }
 
 console.log(
@@ -28,4 +33,3 @@ console.log(
   ])
 );
 // ['Open', 'Open', 'Open', 'Open']
-
