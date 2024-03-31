@@ -8,7 +8,7 @@
 // if word have five or more letters reversed
 
 function spinWords(string) {
-  return string;
+  return string.split(" ").map(w => w.length >= 5 ? w.split("").reverse().join("") : w).join(" ");
 }
 
 console.log(spinWords("Welcome"));
