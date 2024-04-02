@@ -1,9 +1,9 @@
 // Subscribe to my channel :  https://www.youtube.com/@yalladev
 // Follow me on Telegram : https://t.me/abdsymoh
 
-// Problems Solving With JavaScript # 43
+// Problems Solving With JavaScript # (43) Who likes it?
 //  Problem Level : [ 6 kyu ]
-// (43) Who likes it?
+// Problem Link : https://www.codewars.com/kata/5266876b8f4bf2da9b000362/javascript
 
 // []                                                 -->  "no one likes this"
 // ["Peter"]                                      -->  "Peter likes this"
