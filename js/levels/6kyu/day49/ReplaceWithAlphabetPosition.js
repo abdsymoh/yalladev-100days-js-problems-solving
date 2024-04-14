@@ -16,8 +16,8 @@ function alphabetPosition(text) {
   return text
     .toLowerCase()
     .split("")
-    .filter((c) => c.match(/[a-z]/i))
-    .map((c, i, a) => c.replace(c, alphabet.indexOf(c) + 1))
+    .filter((c) => c.match(/[a-z]/gi))
+    .map((c, i, w) => c.replace(c, alphabet.indexOf(c) + 1))
     .join(" ");
 }
 
